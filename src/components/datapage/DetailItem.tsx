@@ -24,6 +24,8 @@ export default function DetailItem({ selectedItem }: DetailItemProps) {
     },
   ];
 
+  const table = [{}];
+
   return (
     <main className="flex flex-col p-8 gap-8 justify-between flex-1 rounded-md">
       <div className="bg-taupe-700 p-3 rounded-xl">
